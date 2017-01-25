@@ -54,6 +54,8 @@ var textLayer = new TextLayer('textLayer', {
 });
 
 
+
+
 animationMap.addLayer(loadingLayer);
 
 animationMap2.addLayer(progressLayer);
@@ -62,10 +64,8 @@ animationMap3.addLayer(textLayer);
 
 
 
-
 window.onresize = function() {
     animationMap.reSize();
     animationMap2.reSize();
     animationMap3.reSize();
-    animationMap4.reSize();
 };
