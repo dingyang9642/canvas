@@ -14,8 +14,8 @@ body {
 
 .animation-map {
 	float: left;
-	width: 33%;
-	height: 200px;
+	width: 600px;
+	height: 600px;
 	position: relative;
     border: 1px solid red;
 }
